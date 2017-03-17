@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D4D2CD01E7C2508005214DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4D2CCF1E7C2508005214DE /* AppDelegate.swift */; };
+		7D4D2CD21E7C2508005214DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4D2CD11E7C2508005214DE /* ViewController.swift */; };
+		7D4D2CD51E7C2508005214DE /* CodeBarre.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7D4D2CD31E7C2508005214DE /* CodeBarre.xcdatamodeld */; };
+		7D4D2CD71E7C2508005214DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D4D2CD61E7C2508005214DE /* Assets.xcassets */; };
+		7D4D2CDA1E7C2508005214DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D4D2CD81E7C2508005214DE /* Main.storyboard */; };
+		7D4D2CE51E7C2509005214DE /* CodeBarreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4D2CE41E7C2509005214DE /* CodeBarreTests.swift */; };
+		7D4D2CF01E7C2509005214DE /* CodeBarreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4D2CEF1E7C2509005214DE /* CodeBarreUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D4D2CE11E7C2509005214DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D4D2CC41E7C2508005214DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D4D2CCB1E7C2508005214DE;
+			remoteInfo = CodeBarre;
+		};
+		7D4D2CEC1E7C2509005214DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D4D2CC41E7C2508005214DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D4D2CCB1E7C2508005214DE;
+			remoteInfo = CodeBarre;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D4D2CCC1E7C2508005214DE /* CodeBarre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeBarre.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D4D2CCF1E7C2508005214DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D4D2CD11E7C2508005214DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7D4D2CD41E7C2508005214DE /* CodeBarre.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CodeBarre.xcdatamodel; sourceTree = "<group>"; };
+		7D4D2CD61E7C2508005214DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D4D2CD91E7C2508005214DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D4D2CDB1E7C2508005214DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D4D2CE01E7C2509005214DE /* CodeBarreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeBarreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D4D2CE41E7C2509005214DE /* CodeBarreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeBarreTests.swift; sourceTree = "<group>"; };
+		7D4D2CE61E7C2509005214DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D4D2CEB1E7C2509005214DE /* CodeBarreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeBarreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D4D2CEF1E7C2509005214DE /* CodeBarreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeBarreUITests.swift; sourceTree = "<group>"; };
+		7D4D2CF11E7C2509005214DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D4D2CC91E7C2508005214DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D4D2CDD1E7C2509005214DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D4D2CE81E7C2509005214DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D4D2CC31E7C2508005214DE = {
+			isa = PBXGroup;
+			children = (
+				7D4D2CCE1E7C2508005214DE /* CodeBarre */,
+				7D4D2CE31E7C2509005214DE /* CodeBarreTests */,
+				7D4D2CEE1E7C2509005214DE /* CodeBarreUITests */,
+				7D4D2CCD1E7C2508005214DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D4D2CCD1E7C2508005214DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D4D2CCC1E7C2508005214DE /* CodeBarre.app */,
+				7D4D2CE01E7C2509005214DE /* CodeBarreTests.xctest */,
+				7D4D2CEB1E7C2509005214DE /* CodeBarreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D4D2CCE1E7C2508005214DE /* CodeBarre */ = {
+			isa = PBXGroup;
+			children = (
+				7D4D2CCF1E7C2508005214DE /* AppDelegate.swift */,
+				7D4D2CD11E7C2508005214DE /* ViewController.swift */,
+				7D4D2CD61E7C2508005214DE /* Assets.xcassets */,
+				7D4D2CD81E7C2508005214DE /* Main.storyboard */,
+				7D4D2CDB1E7C2508005214DE /* Info.plist */,
+				7D4D2CD31E7C2508005214DE /* CodeBarre.xcdatamodeld */,
+			);
+			path = CodeBarre;
+			sourceTree = "<group>";
+		};
+		7D4D2CE31E7C2509005214DE /* CodeBarreTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D4D2CE41E7C2509005214DE /* CodeBarreTests.swift */,
+				7D4D2CE61E7C2509005214DE /* Info.plist */,
+			);
+			path = CodeBarreTests;
+			sourceTree = "<group>";
+		};
+		7D4D2CEE1E7C2509005214DE /* CodeBarreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7D4D2CEF1E7C2509005214DE /* CodeBarreUITests.swift */,
+				7D4D2CF11E7C2509005214DE /* Info.plist */,
+			);
+			path = CodeBarreUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D4D2CCB1E7C2508005214DE /* CodeBarre */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D4D2CF41E7C2509005214DE /* Build configuration list for PBXNativeTarget "CodeBarre" */;
+			buildPhases = (
+				7D4D2CC81E7C2508005214DE /* Sources */,
+				7D4D2CC91E7C2508005214DE /* Frameworks */,
+				7D4D2CCA1E7C2508005214DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodeBarre;
+			productName = CodeBarre;
+			productReference = 7D4D2CCC1E7C2508005214DE /* CodeBarre.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D4D2CDF1E7C2509005214DE /* CodeBarreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D4D2CF71E7C2509005214DE /* Build configuration list for PBXNativeTarget "CodeBarreTests" */;
+			buildPhases = (
+				7D4D2CDC1E7C2509005214DE /* Sources */,
+				7D4D2CDD1E7C2509005214DE /* Frameworks */,
+				7D4D2CDE1E7C2509005214DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D4D2CE21E7C2509005214DE /* PBXTargetDependency */,
+			);
+			name = CodeBarreTests;
+			productName = CodeBarreTests;
+			productReference = 7D4D2CE01E7C2509005214DE /* CodeBarreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7D4D2CEA1E7C2509005214DE /* CodeBarreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D4D2CFA1E7C2509005214DE /* Build configuration list for PBXNativeTarget "CodeBarreUITests" */;
+			buildPhases = (
+				7D4D2CE71E7C2509005214DE /* Sources */,
+				7D4D2CE81E7C2509005214DE /* Frameworks */,
+				7D4D2CE91E7C2509005214DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D4D2CED1E7C2509005214DE /* PBXTargetDependency */,
+			);
+			name = CodeBarreUITests;
+			productName = CodeBarreUITests;
+			productReference = 7D4D2CEB1E7C2509005214DE /* CodeBarreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D4D2CC41E7C2508005214DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Stagiaire;
+				TargetAttributes = {
+					7D4D2CCB1E7C2508005214DE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PXMLLM85C7;
+						ProvisioningStyle = Automatic;
+					};
+					7D4D2CDF1E7C2509005214DE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PXMLLM85C7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7D4D2CCB1E7C2508005214DE;
+					};
+					7D4D2CEA1E7C2509005214DE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PXMLLM85C7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7D4D2CCB1E7C2508005214DE;
+					};
+				};
+			};
+			buildConfigurationList = 7D4D2CC71E7C2508005214DE /* Build configuration list for PBXProject "CodeBarre" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D4D2CC31E7C2508005214DE;
+			productRefGroup = 7D4D2CCD1E7C2508005214DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D4D2CCB1E7C2508005214DE /* CodeBarre */,
+				7D4D2CDF1E7C2509005214DE /* CodeBarreTests */,
+				7D4D2CEA1E7C2509005214DE /* CodeBarreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D4D2CCA1E7C2508005214DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D4D2CD71E7C2508005214DE /* Assets.xcassets in Resources */,
+				7D4D2CDA1E7C2508005214DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D4D2CDE1E7C2509005214DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D4D2CE91E7C2509005214DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D4D2CC81E7C2508005214DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D4D2CD21E7C2508005214DE /* ViewController.swift in Sources */,
+				7D4D2CD51E7C2508005214DE /* CodeBarre.xcdatamodeld in Sources */,
+				7D4D2CD01E7C2508005214DE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D4D2CDC1E7C2509005214DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D4D2CE51E7C2509005214DE /* CodeBarreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D4D2CE71E7C2509005214DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D4D2CF01E7C2509005214DE /* CodeBarreUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D4D2CE21E7C2509005214DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D4D2CCB1E7C2508005214DE /* CodeBarre */;
+			targetProxy = 7D4D2CE11E7C2509005214DE /* PBXContainerItemProxy */;
+		};
+		7D4D2CED1E7C2509005214DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D4D2CCB1E7C2508005214DE /* CodeBarre */;
+			targetProxy = 7D4D2CEC1E7C2509005214DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7D4D2CD81E7C2508005214DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D4D2CD91E7C2508005214DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D4D2CF21E7C2509005214DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D4D2CF31E7C2509005214DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		7D4D2CF51E7C2509005214DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PXMLLM85C7;
+				INFOPLIST_FILE = CodeBarre/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.floriantonnelier.CodeBarre;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7D4D2CF61E7C2509005214DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PXMLLM85C7;
+				INFOPLIST_FILE = CodeBarre/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.floriantonnelier.CodeBarre;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7D4D2CF81E7C2509005214DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PXMLLM85C7;
+				INFOPLIST_FILE = CodeBarreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.floriantonnelier.CodeBarreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeBarre.app/Contents/MacOS/CodeBarre";
+			};
+			name = Debug;
+		};
+		7D4D2CF91E7C2509005214DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PXMLLM85C7;
+				INFOPLIST_FILE = CodeBarreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.floriantonnelier.CodeBarreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeBarre.app/Contents/MacOS/CodeBarre";
+			};
+			name = Release;
+		};
+		7D4D2CFB1E7C2509005214DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PXMLLM85C7;
+				INFOPLIST_FILE = CodeBarreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.floriantonnelier.CodeBarreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CodeBarre;
+			};
+			name = Debug;
+		};
+		7D4D2CFC1E7C2509005214DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PXMLLM85C7;
+				INFOPLIST_FILE = CodeBarreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.floriantonnelier.CodeBarreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CodeBarre;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D4D2CC71E7C2508005214DE /* Build configuration list for PBXProject "CodeBarre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D4D2CF21E7C2509005214DE /* Debug */,
+				7D4D2CF31E7C2509005214DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D4D2CF41E7C2509005214DE /* Build configuration list for PBXNativeTarget "CodeBarre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D4D2CF51E7C2509005214DE /* Debug */,
+				7D4D2CF61E7C2509005214DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7D4D2CF71E7C2509005214DE /* Build configuration list for PBXNativeTarget "CodeBarreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D4D2CF81E7C2509005214DE /* Debug */,
+				7D4D2CF91E7C2509005214DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7D4D2CFA1E7C2509005214DE /* Build configuration list for PBXNativeTarget "CodeBarreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D4D2CFB1E7C2509005214DE /* Debug */,
+				7D4D2CFC1E7C2509005214DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7D4D2CD31E7C2508005214DE /* CodeBarre.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7D4D2CD41E7C2508005214DE /* CodeBarre.xcdatamodel */,
+			);
+			currentVersion = 7D4D2CD41E7C2508005214DE /* CodeBarre.xcdatamodel */;
+			path = CodeBarre.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7D4D2CC41E7C2508005214DE /* Project object */;
+}
